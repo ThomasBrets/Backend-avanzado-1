@@ -1,10 +1,8 @@
-/*
-variables => alojan en memoria un tipo de dato especifico que dependiendo la declaracion
-se puede modificar o no
-const
-let
 
-*/
+//? variables => alojan en memoria un tipo de dato especifico que dependiendo la declaracion se puede modificar o no:
+// const
+// let
+
 
 // let nombre = 'maxi';
 // nombre = 'maximiliano';
@@ -16,21 +14,25 @@ let
 // persona.nombre = "juan"; //no estamos en este caso cambiando la referencia.
 
 
-/*
 
-template strings => es una manera, mal dicha de concatenar.  alt + 96 ``
 
-*/
+
+
+//? template strings => es una manera, mal dicha de concatenar.  alt + 96 ``
 
 // let saludo = `¿como estas? mi nombre es ${nombre}`;
 
 // console.log(saludo)
 
-/*
 
-una manera de escribir funciones mas concisas. no cambia el valor de this. 
 
-*/
+
+
+
+
+
+//? una manera de escribir funciones mas concisas. no cambia el valor de this. 
+
 
 // const saludar = ( nombre)=> `hola soy ${nombre}`;
 
@@ -46,12 +48,13 @@ una manera de escribir funciones mas concisas. no cambia el valor de this.
 // let edad = calcularEdad(1992);
 // console.log(edad)
 
-/*
-for .. of => nos sirve para recorrer arrays, strings, sets
 
 
 
-*/
+
+
+
+//? for .. of => nos sirve para recorrer arrays, strings, sets
 
 // const alumnos = ["natasha", "matias", "lucas"];
 
@@ -107,25 +110,29 @@ for .. of => nos sirve para recorrer arrays, strings, sets
 //     }
 // }
 
-// promesas => modelo que maneja operaciones asincronas
-
-/*
-asicronia => no frena el codigo para hacer algo
-
-javaScript es single-thereaded => javascript solo puede hacer una cosa a la vez. 
-
-    EventLoop => coordina lo que se ejecuta en el codigo. maneja los eventos y tareas.
-
-    tenes una pila de ejecucion => alojamos las funciones sincronas
-    web Apis => manejar tareas asincronicas
-    task queue => cola de tareas. una vez que se ejecutan las tareas se termina el callback.
-
-    CALLBACK => VIENE A SER UNA FUNCION QUE PASA COMO ARGUMENTO A OTRA FUNCION. Y SE EJECUTA MAS TARDE, 
-    EN EL MOMENTO DESPUES DE QUE SE COMPLETE UNA TAREA O EVENTO. 
 
 
-    importante => el asincronismo esta para que no se bloquee el hilo principal de ejecucion
-*/
+
+
+//? promesas => modelo que maneja operaciones asincronas
+
+
+//? asicronia => no frena el codigo para hacer algo
+
+//? javaScript es single-thereaded => javascript solo puede hacer una cosa a la vez. 
+
+//? EventLoop => coordina lo que se ejecuta en el codigo. maneja los eventos y tareas.
+
+//? tenes una pila de ejecucion => alojamos las funciones sincronas
+
+//? web Apis => manejar tareas asincronicas
+
+//? task queue => cola de tareas. una vez que se ejecutan las tareas se termina el callback.
+
+//? CALLBACK => VIENE A SER UNA FUNCION QUE PASA COMO ARGUMENTO A OTRA FUNCION. Y SE EJECUTA MAS TARDE, EN EL MOMENTO DESPUES DE QUE SE COMPLETE UNA TAREA O EVENTO. 
+
+
+//! importante => el asincronismo esta para que no se bloquee el hilo principal de ejecucion
 
 
 // console.log("inicio");
@@ -153,7 +160,13 @@ javaScript es single-thereaded => javascript solo puede hacer una cosa a la vez.
 // })
 
 
-//promesas encadenadas
+
+
+
+
+
+
+//?promesas encadenadas
 
 // function paso1(){
 //     return new Promise (resolve =>{
@@ -177,7 +190,7 @@ javaScript es single-thereaded => javascript solo puede hacer una cosa a la vez.
 //     })
 
 
-//cotizador
+//!cotizador
 /**
  * http://api.exchangerate.host/live
 
